@@ -1,0 +1,120 @@
+2025-06-11 18:20:55,194 - ERROR - MySQL Error: 2003: Can't connect to MySQL server on 'localhost:3306' (Errno 10061: No connection could be made because the target machine actively refused it)
+2025-06-11 18:22:49,883 - ERROR - Error during migration: ('28000', '[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user \'ERAS-PROBOOK\\Admin\'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "DentalClinic" requested by the login. The login failed. (4060); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user \'ERAS-PROBOOK\\Admin\'. (18456); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "DentalClinic" requested by the login. The login failed. (4060)')
+2025-06-11 18:24:58,917 - ERROR - Error during migration: ('28000', '[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user \'ERAS-PROBOOK\\Admin\'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "DentalClinic" requested by the login. The login failed. (4060); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user \'ERAS-PROBOOK\\Admin\'. (18456); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "DentalClinic" requested by the login. The login failed. (4060)')
+2025-06-11 18:27:29,342 - INFO - Connected to SQL Server.
+2025-06-11 18:27:29,369 - INFO - Connected to MongoDB.
+2025-06-11 18:27:29,408 - ERROR - Error during migration: Invalid document {'pid': '0001', 'name': 'Jona', 'surname': 'Sela', 'age': Decimal('20'), 'gender': 'F', 'contact': '777-777-777', 'appointments': [{'AID': 'A0003', 'Aduration': '70 minutes', 'PID': '0001', 'TID': 'T0003', 'DID': 'D0003', 'Diagnosis': 'Dental cleaning', 'Perception': 'oral hygiene', 'Date': datetime.date(2024, 5, 7), 'Time': datetime.time(12, 0)}], 'bills': [{'BID': 'B0001', 'Bamount': Decimal('111.00'), 'Bdate': datetime.date(2024, 1, 5), 'BMethod': 'Cash', 'PID': '0001', 'IID': 'I0001', 'TID': 'T0001'}, {'BID': 'B0007', 'Bamount': Decimal('111.00'), 'Bdate': datetime.date(2024, 1, 5), 'BMethod': 'Cash', 'PID': '0001', 'IID': 'I0001', 'TID': 'T0001'}], 'medical_history': {'MID': 'M0001', 'Mmed': 'Flu', 'Msurgery': None, 'Mcodnition': 'Common cold', 'Mallergies': 'None', 'PID': '0001'}, 'insurances': [{'IID': 'I0011', 'PolicyNum': 'POL001', 'Insurance_provider': 'ABC Insurance', 'PID': '0001'}], '_id': ObjectId('6849ae71e8f3afc944c685c4')} | cannot encode object: Decimal('20'), of type: <class 'decimal.Decimal'>
+2025-06-11 18:27:29,409 - INFO - SQL Server connection closed.
+2025-06-11 18:27:34,134 - INFO - Connected to SQL Server.
+2025-06-11 18:27:34,134 - INFO - Connected to MongoDB.
+2025-06-11 18:27:34,160 - ERROR - Error during migration: Invalid document {'pid': '0001', 'name': 'Jona', 'surname': 'Sela', 'age': Decimal('20'), 'gender': 'F', 'contact': '777-777-777', 'appointments': [{'AID': 'A0003', 'Aduration': '70 minutes', 'PID': '0001', 'TID': 'T0003', 'DID': 'D0003', 'Diagnosis': 'Dental cleaning', 'Perception': 'oral hygiene', 'Date': datetime.date(2024, 5, 7), 'Time': datetime.time(12, 0)}], 'bills': [{'BID': 'B0001', 'Bamount': Decimal('111.00'), 'Bdate': datetime.date(2024, 1, 5), 'BMethod': 'Cash', 'PID': '0001', 'IID': 'I0001', 'TID': 'T0001'}, {'BID': 'B0007', 'Bamount': Decimal('111.00'), 'Bdate': datetime.date(2024, 1, 5), 'BMethod': 'Cash', 'PID': '0001', 'IID': 'I0001', 'TID': 'T0001'}], 'medical_history': {'MID': 'M0001', 'Mmed': 'Flu', 'Msurgery': None, 'Mcodnition': 'Common cold', 'Mallergies': 'None', 'PID': '0001'}, 'insurances': [{'IID': 'I0011', 'PolicyNum': 'POL001', 'Insurance_provider': 'ABC Insurance', 'PID': '0001'}], '_id': ObjectId('6849ae768581c6065a38179b')} | cannot encode object: Decimal('20'), of type: <class 'decimal.Decimal'>
+2025-06-11 18:27:34,161 - INFO - SQL Server connection closed.
+2025-06-11 18:29:36,100 - INFO - Connected to SQL Server.
+2025-06-11 18:29:36,115 - INFO - Connected to MongoDB.
+2025-06-11 18:29:36,121 - INFO - Fetched 20 patients.
+2025-06-11 18:29:36,158 - INFO - Inserted patient 0001 into MongoDB.
+2025-06-11 18:29:36,160 - INFO - Inserted patient 0002 into MongoDB.
+2025-06-11 18:29:36,163 - INFO - Inserted patient 0003 into MongoDB.
+2025-06-11 18:29:36,165 - INFO - Inserted patient 0004 into MongoDB.
+2025-06-11 18:29:36,167 - INFO - Inserted patient 0005 into MongoDB.
+2025-06-11 18:29:36,169 - INFO - Inserted patient 0006 into MongoDB.
+2025-06-11 18:29:36,172 - INFO - Inserted patient 0007 into MongoDB.
+2025-06-11 18:29:36,174 - INFO - Inserted patient 0008 into MongoDB.
+2025-06-11 18:29:36,176 - INFO - Inserted patient 0009 into MongoDB.
+2025-06-11 18:29:36,180 - INFO - Inserted patient 0010 into MongoDB.
+2025-06-11 18:29:36,188 - INFO - Inserted patient 0011 into MongoDB.
+2025-06-11 18:29:36,190 - INFO - Inserted patient 0012 into MongoDB.
+2025-06-11 18:29:36,192 - INFO - Inserted patient 0013 into MongoDB.
+2025-06-11 18:29:36,206 - INFO - Inserted patient 0014 into MongoDB.
+2025-06-11 18:29:36,218 - INFO - Inserted patient 0015 into MongoDB.
+2025-06-11 18:29:36,232 - INFO - Inserted patient 0016 into MongoDB.
+2025-06-11 18:29:36,235 - INFO - Inserted patient 0017 into MongoDB.
+2025-06-11 18:29:36,250 - INFO - Inserted patient 0018 into MongoDB.
+2025-06-11 18:29:36,256 - INFO - Inserted patient 0019 into MongoDB.
+2025-06-11 18:29:36,260 - INFO - Inserted patient 0020 into MongoDB.
+2025-06-11 18:29:36,260 - INFO - Migration completed successfully.
+2025-06-11 18:29:36,261 - INFO - SQL Server connection closed.
+2025-06-11 18:29:57,765 - INFO - Connected to SQL Server.
+2025-06-11 18:29:57,770 - INFO - Connected to MongoDB.
+2025-06-11 18:29:57,773 - INFO - Fetched 20 patients.
+2025-06-11 18:29:57,789 - INFO - Inserted patient 0001 into MongoDB.
+2025-06-11 18:29:57,793 - INFO - Inserted patient 0002 into MongoDB.
+2025-06-11 18:29:57,796 - INFO - Inserted patient 0003 into MongoDB.
+2025-06-11 18:29:57,800 - INFO - Inserted patient 0004 into MongoDB.
+2025-06-11 18:29:57,802 - INFO - Inserted patient 0005 into MongoDB.
+2025-06-11 18:29:57,804 - INFO - Inserted patient 0006 into MongoDB.
+2025-06-11 18:29:57,807 - INFO - Inserted patient 0007 into MongoDB.
+2025-06-11 18:29:57,819 - INFO - Inserted patient 0008 into MongoDB.
+2025-06-11 18:29:57,831 - INFO - Inserted patient 0009 into MongoDB.
+2025-06-11 18:29:57,843 - INFO - Inserted patient 0010 into MongoDB.
+2025-06-11 18:29:57,851 - INFO - Inserted patient 0011 into MongoDB.
+2025-06-11 18:29:57,858 - INFO - Inserted patient 0012 into MongoDB.
+2025-06-11 18:29:57,864 - INFO - Inserted patient 0013 into MongoDB.
+2025-06-11 18:29:57,870 - INFO - Inserted patient 0014 into MongoDB.
+2025-06-11 18:29:57,875 - INFO - Inserted patient 0015 into MongoDB.
+2025-06-11 18:29:57,880 - INFO - Inserted patient 0016 into MongoDB.
+2025-06-11 18:29:57,886 - INFO - Inserted patient 0017 into MongoDB.
+2025-06-11 18:29:57,891 - INFO - Inserted patient 0018 into MongoDB.
+2025-06-11 18:29:57,899 - INFO - Inserted patient 0019 into MongoDB.
+2025-06-11 18:29:57,902 - INFO - Inserted patient 0020 into MongoDB.
+2025-06-11 18:29:57,904 - INFO - Migration completed successfully.
+2025-06-11 18:29:57,905 - INFO - SQL Server connection closed.
+2025-06-11 18:39:23,186 - ERROR - Error during migration: ('28000', '[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user \'ERAS-PROBOOK\\Admin\'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "DentalClinic" requested by the login. The login failed. (4060); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user \'ERAS-PROBOOK\\Admin\'. (18456); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot open database "DentalClinic" requested by the login. The login failed. (4060)')
+2025-06-11 18:40:38,147 - INFO - Connected to SQL Server.
+2025-06-11 18:40:38,147 - INFO - Connected to MongoDB.
+2025-06-11 18:40:38,165 - INFO - Fetched 20 patients.
+2025-06-11 18:40:38,203 - INFO - Inserted patient 0001 into MongoDB.
+2025-06-11 18:40:38,208 - INFO - Inserted patient 0002 into MongoDB.
+2025-06-11 18:40:38,211 - INFO - Inserted patient 0003 into MongoDB.
+2025-06-11 18:40:38,215 - INFO - Inserted patient 0004 into MongoDB.
+2025-06-11 18:40:38,219 - INFO - Inserted patient 0005 into MongoDB.
+2025-06-11 18:40:38,222 - INFO - Inserted patient 0006 into MongoDB.
+2025-06-11 18:40:38,224 - INFO - Inserted patient 0007 into MongoDB.
+2025-06-11 18:40:38,228 - INFO - Inserted patient 0008 into MongoDB.
+2025-06-11 18:40:38,233 - INFO - Inserted patient 0009 into MongoDB.
+2025-06-11 18:40:38,236 - INFO - Inserted patient 0010 into MongoDB.
+2025-06-11 18:40:38,238 - INFO - Inserted patient 0011 into MongoDB.
+2025-06-11 18:40:38,241 - INFO - Inserted patient 0012 into MongoDB.
+2025-06-11 18:40:38,244 - INFO - Inserted patient 0013 into MongoDB.
+2025-06-11 18:40:38,248 - INFO - Inserted patient 0014 into MongoDB.
+2025-06-11 18:40:38,251 - INFO - Inserted patient 0015 into MongoDB.
+2025-06-11 18:40:38,254 - INFO - Inserted patient 0016 into MongoDB.
+2025-06-11 18:40:38,258 - INFO - Inserted patient 0017 into MongoDB.
+2025-06-11 18:40:38,264 - INFO - Inserted patient 0018 into MongoDB.
+2025-06-11 18:40:38,275 - INFO - Inserted patient 0019 into MongoDB.
+2025-06-11 18:40:38,280 - INFO - Inserted patient 0020 into MongoDB.
+2025-06-11 18:40:38,373 - INFO - Inserted 20 employees.
+2025-06-11 18:40:38,425 - INFO - Inserted 20 dentists.
+2025-06-11 18:40:38,463 - INFO - Inserted 20 nurses.
+2025-06-11 18:40:38,499 - INFO - Inserted 20 tech staff.
+2025-06-11 18:40:38,499 - INFO - Full migration completed successfully.
+2025-06-11 18:40:38,500 - INFO - SQL Server connection closed.
+2025-06-11 19:12:52,782 - INFO - Connected to SQL Server.
+2025-06-11 19:12:52,782 - INFO - Connected to MongoDB.
+2025-06-11 19:12:52,807 - INFO - Fetched 20 patients.
+2025-06-11 19:12:52,862 - INFO - Inserted patient 0001 into MongoDB.
+2025-06-11 19:12:52,868 - INFO - Inserted patient 0002 into MongoDB.
+2025-06-11 19:12:52,873 - INFO - Inserted patient 0003 into MongoDB.
+2025-06-11 19:12:52,879 - INFO - Inserted patient 0004 into MongoDB.
+2025-06-11 19:12:52,885 - INFO - Inserted patient 0005 into MongoDB.
+2025-06-11 19:12:52,891 - INFO - Inserted patient 0006 into MongoDB.
+2025-06-11 19:12:52,901 - INFO - Inserted patient 0007 into MongoDB.
+2025-06-11 19:12:52,908 - INFO - Inserted patient 0008 into MongoDB.
+2025-06-11 19:12:52,918 - INFO - Inserted patient 0009 into MongoDB.
+2025-06-11 19:12:52,927 - INFO - Inserted patient 0010 into MongoDB.
+2025-06-11 19:12:52,937 - INFO - Inserted patient 0011 into MongoDB.
+2025-06-11 19:12:52,949 - INFO - Inserted patient 0012 into MongoDB.
+2025-06-11 19:12:52,960 - INFO - Inserted patient 0013 into MongoDB.
+2025-06-11 19:12:52,971 - INFO - Inserted patient 0014 into MongoDB.
+2025-06-11 19:12:52,982 - INFO - Inserted patient 0015 into MongoDB.
+2025-06-11 19:12:52,992 - INFO - Inserted patient 0016 into MongoDB.
+2025-06-11 19:12:53,004 - INFO - Inserted patient 0017 into MongoDB.
+2025-06-11 19:12:53,016 - INFO - Inserted patient 0018 into MongoDB.
+2025-06-11 19:12:53,027 - INFO - Inserted patient 0019 into MongoDB.
+2025-06-11 19:12:53,040 - INFO - Inserted patient 0020 into MongoDB.
+2025-06-11 19:12:53,158 - INFO - Inserted 20 employees.
+2025-06-11 19:12:53,238 - INFO - Inserted 20 dentists.
+2025-06-11 19:12:53,312 - INFO - Inserted 20 nurses.
+2025-06-11 19:12:53,394 - INFO - Inserted 20 tech staff.
+2025-06-11 19:12:53,395 - INFO - Full migration completed successfully.
+2025-06-11 19:12:53,396 - INFO - SQL Server connection closed.
