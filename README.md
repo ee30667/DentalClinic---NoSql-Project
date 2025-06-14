@@ -61,6 +61,7 @@ Make sure the following are installed:
 ---
 
 ### 📦 Install Dependencies
+
 ''bash
 pip install pyodbc pymongo
 
@@ -81,22 +82,22 @@ python migrate_dentalclinic.py
 
 4. Open MongoDB Compass or use Mongo shell to verify the following collections:
 
-- 'patients'
-- 'employees'
-- 'dentists'
-- 'nurses'
-- 'tech_staff'
+- `patients`
+- `employees`
+- `dentists`
+- `nurses`
+- `tech_staff`
 
 ---
 
 🧩 Dependencies
 
 Library -	Use: 
-- 'pyodbc' - Connect and query SQL Server
-- 'pymongo'	- Insert and manage MongoDB data
-- 'decimal' - Handle Decimal to float conversion
-- 'datetime' - Convert date, time to ISO format
-- 'logging'	- Log migration activity and errors
+- `pyodbc` - Connect and query SQL Server
+- `pymongo`	- Insert and manage MongoDB data
+- `decimal` - Handle Decimal to float conversion
+- `datetime` - Convert date, time to ISO format
+- `logging` - Log migration activity and errors
 
 ---
 
